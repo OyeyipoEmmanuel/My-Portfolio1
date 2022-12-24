@@ -1,0 +1,179 @@
+@media (max-width:800px){
+    .hamburger{
+        display: flex;
+    }
+    .hamburger i:last-child{
+        display: none;
+    }
+    body{
+        left: 0;
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .bg-img {
+     background: url('../media/christina-wocintechchat-com-RTJIXQNne68-unsplash.jpg');
+     min-width:100%;
+     height: 130vh;
+     position: absolute;
+     filter: blur(4px);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+    }
+    nav{
+        left: 100%;
+        width: 100%;
+        transition: 0.7s;
+        height: 800px;
+        text-align: center;
+    }
+    nav h1{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .nav-list{
+        padding: 7px 0;
+    }
+    .icon{
+        padding:  0px 10px;
+    }
+    nav.active{
+        left: 0;
+        z-index: 1000;
+    }
+    .header_ctn{
+        width: 100%;
+       z-index: 10;
+    }
+    .h-ctn{
+        padding: 0 0 0 30px;
+        z-index: 10;
+        
+    }
+    .h-ctn h1{
+        font-size: 35px;
+        z-index: 10;
+    }
+    .h-ctn p{
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+        color: black;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .h-ctn button{
+        margin: 15px 35px;
+    }
+    .h-ctn h4{
+        font-size: 30px;
+    }
+    .h-ctn h2{
+        font-size: 22px;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    .header_img{
+        display: none;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .about-ctn{
+        display: block;
+    }
+    .about button{
+        position: relative;
+        left: 30px;
+        top: 0px;
+        margin: 10px 0 ;
+
+    }
+    .about img{
+        width: 100%;
+        height: 300px;
+        margin:20px 5px ;
+    }
+    .a-ctn{
+        width: 100%;
+    }
+    .about button{
+        margin: 10px ;
+    }
+    .a-ctn h2{
+        width: 100%;
+    }
+    .a-ctn p{
+        width: 100%;
+    }
+    .me-info{
+        display: block;
+    }
+    .info-1{
+        padding: 0 30px 0 0;
+      
+    }
+    .skills{
+        width: 100%;
+        
+    }
+    .skills h2{
+        font-size: 40px;
+        padding: 10px 0;
+    }
+    .rows{
+        width: 100%;
+    }
+    .row1{
+        width: 80%;
+        font-size: 15px;
+    }
+    .row2{
+        margin: 0;
+        display: block;
+        width: 80%;
+    }
+    .row2 .card{
+        width: 100%;
+        background-color: white;
+        margin: 70px 10px 0px 0px;
+    }
+    .row2 .card:hover{
+        transform: none;
+    }
+    .service{
+        width: 100%;
+        padding: 0 0px;
+    }
+    .service h1{
+        font-size: 36px;
+        padding: 70px 0 0 0;
+    }
+    .experience{
+        width: 100%;
+        padding: 10px;
+    }
+    .experience h1{
+        font-size: 30px;
+        padding: 0 20px;
+    }
+    .experience .exp-card .card{
+        padding: 1rem;
+    }
+    .experience .exp-card .card h4{
+        font-size: 12px;
+    }
+    .experience .exp-card .card h2{
+        font-size: 25px;
+    }
+
+}
